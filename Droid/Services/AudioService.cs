@@ -4,8 +4,9 @@ using Android.Media;
 using AudioTest.Droid;
 using AudioTest.Services;
 using Xamarin.Forms;
+using AudioTest.Droid.Services;
 
-[assembly: Dependency(typeof(IAudioService))]
+[assembly: Dependency(typeof(AudioService))]
 namespace AudioTest.Droid.Services
 {
     public class AudioService : IAudioService
