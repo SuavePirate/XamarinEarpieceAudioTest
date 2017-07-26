@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:AudioTest" x:Class="AudioTest.AudioTestPage">
-    <StackLayout>
+    <StackLayout VerticalOptions="CenterAndExpand">
         <Button Text="Play through speaker" Clicked="Speaker_Clicked" />
         <Button Text="Play through earpiece" Clicked="EarPiece_Clicked" />
     </StackLayout>
